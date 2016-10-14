@@ -38,6 +38,20 @@ public class DavesHMDActions : MonoBehaviour {
 
             this.enabled = false;
         }
+		} else if (col.gameObject == camRigEye && hmdOnDave == true) {
+			hmdOnDave = false;
+			
+			
+			
+			Debug.Log ("The HMD was removed from little Daves head, moving from:" + camRig.transform.position + " to " + littleDavesStartPos.transform.position);
+			
+			camRig.GetComponent<Team_3_camRigActions> ().moveRig (littleDavesStartPos.transform.position);
+			
+			
+			ChangeDavesScale (1.00f);
+			
+			this.enabled = false;
+		}
     }
 
     void ChangeDavesScale(float newScale)
