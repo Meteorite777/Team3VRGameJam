@@ -1,0 +1,35 @@
+# Written by MakeHuman 1.1.0
+version v1.1.0
+tags Dave_Test_makehuman
+camera 11.0 0.5 -0.0160066562597 0.495049422539 0.116235855605 0.95
+modifier macrodetails-universal/Muscle 0.320000
+modifier macrodetails/African 0.075967
+modifier macrodetails-proportions/BodyProportions 0.500000
+modifier macrodetails/Gender 1.000000
+modifier head/head-angle-in|out -0.688000
+modifier macrodetails-height/Height 0.592000
+modifier breast/BreastSize 0.500000
+modifier head/head-invertedtriangular 0.136000
+modifier macrodetails/Age 0.551000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Asian 0.142033
+modifier head/head-fat-decr|incr -0.346000
+modifier head/head-diamond 0.190000
+modifier macrodetails/Caucasian 0.782000
+modifier head/head-triangular 0.190000
+modifier head/head-square 0.163000
+modifier head/head-round 0.143000
+modifier macrodetails-universal/Weight 0.701000
+teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
+proxy male_generic df01ef58-b37f-479e-9f97-b4c1b9626aa8
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+skeleton game_engine.mhskel
+eyebrows eyebrow009 55b3b52a-379e-426d-b320-562ed57202b3
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes male_elegantsuit01 1d2e3843-dda5-40a8-84a0-96666aa681bb
+clothes shoes03 ad622a26-da1e-4e3c-9f8e-454edf10d504
+clothesHideFaces True
+skinMaterial skins/middleage_caucasian_male/middleage_caucasian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+subdivide False
